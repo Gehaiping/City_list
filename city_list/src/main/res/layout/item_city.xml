@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/cityLetter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="3dp"
+        android:background="#e4e1e1"
+        android:text="A" />
+
+    <cn.ucai.day16_exercise3.NoScrollListView
+        android:id="@+id/cityList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:divider="#CCCCCC"
+        android:dividerHeight="1px" />
+
+</LinearLayout>
